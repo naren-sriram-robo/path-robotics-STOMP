@@ -1,9 +1,0 @@
-[  7%] Built target stomp_moveit_noise_generators
-[ 19%] Built target stomp_moveit_noisy_filters
-[ 23%] [32mBuilding CXX object CMakeFiles/stomp_moveit_cost_functions.dir/src/cost_functions/experiment_check.cpp.o[0m
-[ 46%] Built target stomp_moveit_update_filters
-[ 69%] Built target stomp_moveit
-[ 76%] Built target stomp_moveit_smoothing_adapter
-[ 84%] Built target stomp_moveit_planner_manager
-[ 88%] [32m[1mLinking CXX shared library /home/nsriram/ws_moveit/devel/.private/stomp_moveit/lib/libstomp_moveit_cost_functions.so[0m
-[100%] Built target stomp_moveit_cost_functions

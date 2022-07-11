@@ -1,8 +1,0 @@
-[35m[1mConsolidate compiler generated dependencies of target stomp_moveit_cost_functions[0m
-[  7%] Built target stomp_moveit_noise_generators
-[ 19%] Built target stomp_moveit_noisy_filters
-[ 42%] Built target stomp_moveit_update_filters
-[ 65%] Built target stomp_moveit
-[ 84%] Built target stomp_moveit_cost_functions
-[ 92%] Built target stomp_moveit_planner_manager
-[100%] Built target stomp_moveit_smoothing_adapter

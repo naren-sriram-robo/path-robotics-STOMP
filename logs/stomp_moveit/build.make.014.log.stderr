@@ -1,7 +1,0 @@
-/home/nsriram/ws_moveit/src/stomp_ros/stomp_moveit/src/stomp_planner.cpp: In member function ‘virtual bool stomp_moveit::StompPlanner::solve(planning_interface::MotionPlanDetailedResponse&)’:
-/home/nsriram/ws_moveit/src/stomp_ros/stomp_moveit/src/stomp_planner.cpp:301:19: error: ‘positions’ was not declared in this scope
-     for(int j=0;j<positions.size();j++)
-                   ^~~~~~~~~
-make[2]: *** [CMakeFiles/stomp_moveit.dir/src/stomp_planner.cpp.o] Error 1
-make[1]: *** [CMakeFiles/stomp_moveit.dir/all] Error 2
-make: *** [all] Error 2
