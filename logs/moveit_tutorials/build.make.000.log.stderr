@@ -1,0 +1,26 @@
+/home/nsriram/ws_moveit/src/moveit_tutorials/doc/state_display/src/state_display_tutorial.cpp: In function ‘int main(int, char**)’:
+/home/nsriram/ws_moveit/src/moveit_tutorials/doc/state_display/src/state_display_tutorial.cpp:115:93: warning: ‘bool moveit::core::RobotState::setFromIK(const moveit::core::JointModelGroup*, const Isometry3d&, unsigned int, double, const GroupStateValidityCallbackFn&, const kinematics::KinematicsQueryOptions&)’ is deprecated: The attempts argument is not supported anymore. [-Wdeprecated-declarations]
+     bool found_ik = kinematic_state->setFromIK(joint_model_group, end_effector_pose, 10, 0.1);
+                                                                                             ^
+In file included from /home/nsriram/ws_moveit/src/moveit_tutorials/doc/state_display/src/state_display_tutorial.cpp:42:0:
+/opt/ros/melodic/include/moveit/robot_state/robot_state.h:1049:3: note: declared here
+   setFromIK(const JointModelGroup* group, const Eigen::Isometry3d& pose, unsigned int /*attempts*/,
+   ^~~~~~~~~
+/home/nsriram/ws_moveit/src/moveit_tutorials/doc/interactivity/src/interactive_robot.cpp: In member function ‘void InteractiveRobot::updateAll()’:
+/home/nsriram/ws_moveit/src/moveit_tutorials/doc/interactivity/src/interactive_robot.cpp:235:76: warning: ‘bool moveit::core::RobotState::setFromIK(const moveit::core::JointModelGroup*, const Isometry3d&, unsigned int, double, const GroupStateValidityCallbackFn&, const kinematics::KinematicsQueryOptions&)’ is deprecated: The attempts argument is not supported anymore. [-Wdeprecated-declarations]
+   if (robot_state_->setFromIK(group_, desired_group_end_link_pose_, 10, 0.1))
+                                                                            ^
+In file included from /home/nsriram/ws_moveit/src/moveit_tutorials/doc/interactivity/include/interactivity/interactive_robot.h:45:0,
+                 from /home/nsriram/ws_moveit/src/moveit_tutorials/doc/interactivity/src/interactive_robot.cpp:39:
+/opt/ros/melodic/include/moveit/robot_state/robot_state.h:1049:3: note: declared here
+   setFromIK(const JointModelGroup* group, const Eigen::Isometry3d& pose, unsigned int /*attempts*/,
+   ^~~~~~~~~
+In file included from /usr/include/pcl-1.8/pcl/sample_consensus/sac_model.h:52:0,
+                 from /usr/include/pcl-1.8/pcl/sample_consensus/sac.h:45,
+                 from /usr/include/pcl-1.8/pcl/segmentation/sac_segmentation.h:49,
+                 from /home/nsriram/ws_moveit/src/moveit_tutorials/doc/perception_pipeline/src/cylinder_segment.cpp:43:
+/usr/include/pcl-1.8/pcl/sample_consensus/model_types.h: In function ‘void __static_initialization_and_destruction_0(int, int)’:
+/usr/include/pcl-1.8/pcl/sample_consensus/model_types.h:99:3: warning: ‘pcl::SAC_SAMPLE_SIZE’ is deprecated: This map is deprecated and is kept only to prevent breaking existing user code. Starting from PCL 1.8.0 model sample size is a protected member of the SampleConsensusModel class [-Wdeprecated-declarations]
+   SAC_SAMPLE_SIZE (sample_size_pairs, sample_size_pairs + sizeof (sample_size_pairs) / sizeof (SampleSizeModel));
+   ^~~~~~~~~~~~~~~
+/usr/include/pcl-1.8/pcl/sample_consensus/model_types.h:99:3: note: declared here

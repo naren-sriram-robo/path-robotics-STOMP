@@ -1,0 +1,15 @@
+In file included from /home/nsriram/ws_moveit/src/stomp_ros/stomp_moveit/src/cost_functions/experiment_check.cpp:29:0:
+/home/nsriram/ws_moveit/src/stomp_ros/stomp_moveit/include/stomp_moveit/cost_functions/experiment_check.h:113:17: error: field ‘experiment_f’ has incomplete type ‘std::ofstream {aka std::basic_ofstream<char>}’
+   std::ofstream experiment_f;
+                 ^~~~~~~~~~~~
+In file included from /usr/include/c++/7/ios:38:0,
+                 from /usr/include/c++/7/istream:38,
+                 from /usr/include/c++/7/sstream:38,
+                 from /opt/ros/melodic/include/ros/console.h:38,
+                 from /home/nsriram/ws_moveit/src/stomp_ros/stomp_moveit/src/cost_functions/experiment_check.cpp:26:
+/usr/include/c++/7/iosfwd:119:11: note: declaration of ‘std::ofstream {aka class std::basic_ofstream<char>}’
+     class basic_ofstream;
+           ^~~~~~~~~~~~~~
+make[2]: *** [CMakeFiles/stomp_moveit_cost_functions.dir/src/cost_functions/experiment_check.cpp.o] Error 1
+make[1]: *** [CMakeFiles/stomp_moveit_cost_functions.dir/all] Error 2
+make: *** [all] Error 2

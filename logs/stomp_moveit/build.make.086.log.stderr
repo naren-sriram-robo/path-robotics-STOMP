@@ -1,0 +1,7 @@
+/home/nsriram/ws_moveit/src/stomp_ros/stomp_moveit/src/cost_functions/experiment_check.cpp: In member function ‘virtual bool stomp_moveit::cost_functions::ExperimentCheck::computeCosts(const MatrixXd&, std::size_t, std::size_t, int, int, Eigen::VectorXd&, bool&)’:
+/home/nsriram/ws_moveit/src/stomp_ros/stomp_moveit/src/cost_functions/experiment_check.cpp:232:50: error: ‘using element_type = class moveit::core::RobotState {aka class moveit::core::RobotState}’ has no member named ‘getCurrentJointValues’
+   std::vector<double> curr_joint = robot_state_->getCurrentJointValues();
+                                                  ^~~~~~~~~~~~~~~~~~~~~
+make[2]: *** [CMakeFiles/stomp_moveit_cost_functions.dir/src/cost_functions/experiment_check.cpp.o] Error 1
+make[1]: *** [CMakeFiles/stomp_moveit_cost_functions.dir/all] Error 2
+make: *** [all] Error 2

@@ -1,0 +1,20 @@
+/home/nsriram/ws_moveit/src/stomp_ros/stomp_moveit/src/stomp_planner.cpp: In member function ‘virtual bool stomp_moveit::StompPlanner::solve(planning_interface::MotionPlanDetailedResponse&)’:
+/home/nsriram/ws_moveit/src/stomp_ros/stomp_moveit/src/stomp_planner.cpp:298:34: error: ‘class std::vector<std::shared_ptr<robot_trajectory::RobotTrajectory> >’ has no member named ‘trajectory’; did you mean ‘vector’?
+   for (int i=0;i<res.trajectory_.trajectory.joint_trajectory.points.size();i++)
+                                  ^~~~~~~~~~
+                                  vector
+/home/nsriram/ws_moveit/src/stomp_ros/stomp_moveit/src/stomp_planner.cpp:300:47: error: ‘class std::vector<std::shared_ptr<robot_trajectory::RobotTrajectory> >’ has no member named ‘trajectory’; did you mean ‘vector’?
+     StompPlanner::duration_f<<res.trajectory_.trajectory.joint_trajectory.points[i].time_from_start<<" ";
+                                               ^~~~~~~~~~
+                                               vector
+/home/nsriram/ws_moveit/src/stomp_ros/stomp_moveit/src/stomp_planner.cpp:301:35: error: ‘class std::vector<std::shared_ptr<robot_trajectory::RobotTrajectory> >’ has no member named ‘trajectory’; did you mean ‘vector’?
+     for(int j=0;j<res.trajectory_.trajectory.joint_trajectory.points[i].positions.size();j++)
+                                   ^~~~~~~~~~
+                                   vector
+/home/nsriram/ws_moveit/src/stomp_ros/stomp_moveit/src/stomp_planner.cpp:302:45: error: ‘class std::vector<std::shared_ptr<robot_trajectory::RobotTrajectory> >’ has no member named ‘trajectory’; did you mean ‘vector’?
+       StompPlanner::traj_f<<res.trajectory_.trajectory.joint_trajectory.points[i]positions[j]<<" ";
+                                             ^~~~~~~~~~
+                                             vector
+make[2]: *** [CMakeFiles/stomp_moveit.dir/src/stomp_planner.cpp.o] Error 1
+make[1]: *** [CMakeFiles/stomp_moveit.dir/all] Error 2
+make: *** [all] Error 2

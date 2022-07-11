@@ -1,0 +1,8 @@
+prefix=/home/nsriram/ws_moveit/install
+
+Name: stomp_plugins
+Description: Description of stomp_plugins
+Version: 0.1.1
+Cflags: -I${prefix}/include -I/usr/include -I/usr/local/include/eigen3 -I/home/nsriram/ws_moveit/devel/include
+Libs: -L${prefix}/lib -lstomp_plugins /usr/lib/x86_64-linux-gnu/libboost_system.so
+Requires: eigen_conversions moveit_core moveit_ros_planning pluginlib rosconsole roslib stomp_moveit xmlrpcpp

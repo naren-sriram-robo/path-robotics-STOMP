@@ -1,0 +1,66 @@
+/home/nsriram/ws_moveit/src/stomp_ros/stomp_moveit/src/cost_functions/experiment_check.cpp: In member function ‘virtual bool stomp_moveit::cost_functions::ExperimentCheck::computeCosts(const MatrixXd&, std::size_t, std::size_t, int, int, Eigen::VectorXd&, bool&)’:
+/home/nsriram/ws_moveit/src/stomp_ros/stomp_moveit/src/cost_functions/experiment_check.cpp:274:72: error: no matching function for call to ‘abs(const Eigen::CwiseBinaryOp<Eigen::internal::scalar_difference_op<double, double>, const Eigen::Block<const Eigen::Block<const Eigen::Matrix<double, -1, -1>, -1, 1, true>, 1, 1, false>, const Eigen::Block<const Eigen::Block<const Eigen::Matrix<double, -1, -1>, -1, 1, true>, 1, 1, false> >)’
+       if(std::abs(parameters.col(t).row(6) - parameters.col(t-1).row(6)) < 0.01)
+                                                                        ^
+In file included from /usr/include/boost/config/no_tr1/complex.hpp:21:0,
+                 from /usr/include/boost/math/policies/error_handling.hpp:17,
+                 from /usr/include/boost/math/special_functions/round.hpp:14,
+                 from /opt/ros/melodic/include/ros/time.h:58,
+                 from /opt/ros/melodic/include/ros/console.h:39,
+                 from /home/nsriram/ws_moveit/src/stomp_ros/stomp_moveit/src/cost_functions/experiment_check.cpp:26:
+/usr/include/c++/7/complex:599:5: note: candidate: template<class _Tp> _Tp std::abs(const std::complex<_Tp>&)
+     abs(const complex<_Tp>& __z) { return __complex_abs(__z.__rep()); }
+     ^~~
+/usr/include/c++/7/complex:599:5: note:   template argument deduction/substitution failed:
+/home/nsriram/ws_moveit/src/stomp_ros/stomp_moveit/src/cost_functions/experiment_check.cpp:274:72: note:   ‘const Eigen::CwiseBinaryOp<Eigen::internal::scalar_difference_op<double, double>, const Eigen::Block<const Eigen::Block<const Eigen::Matrix<double, -1, -1>, -1, 1, true>, 1, 1, false>, const Eigen::Block<const Eigen::Block<const Eigen::Matrix<double, -1, -1>, -1, 1, true>, 1, 1, false> >’ is not derived from ‘const std::complex<_Tp>’
+       if(std::abs(parameters.col(t).row(6) - parameters.col(t-1).row(6)) < 0.01)
+                                                                        ^
+In file included from /usr/include/c++/7/cstdlib:77:0,
+                 from /usr/include/c++/7/ext/string_conversions.h:41,
+                 from /usr/include/c++/7/bits/basic_string.h:6361,
+                 from /usr/include/c++/7/string:52,
+                 from /usr/include/c++/7/bits/locale_classes.h:40,
+                 from /usr/include/c++/7/bits/ios_base.h:41,
+                 from /usr/include/c++/7/ios:42,
+                 from /usr/include/c++/7/istream:38,
+                 from /usr/include/c++/7/sstream:38,
+                 from /opt/ros/melodic/include/ros/console.h:38,
+                 from /home/nsriram/ws_moveit/src/stomp_ros/stomp_moveit/src/cost_functions/experiment_check.cpp:26:
+/usr/include/c++/7/bits/std_abs.h:78:3: note: candidate: constexpr long double std::abs(long double)
+   abs(long double __x)
+   ^~~
+/usr/include/c++/7/bits/std_abs.h:78:3: note:   no known conversion for argument 1 from ‘const Eigen::CwiseBinaryOp<Eigen::internal::scalar_difference_op<double, double>, const Eigen::Block<const Eigen::Block<const Eigen::Matrix<double, -1, -1>, -1, 1, true>, 1, 1, false>, const Eigen::Block<const Eigen::Block<const Eigen::Matrix<double, -1, -1>, -1, 1, true>, 1, 1, false> >’ to ‘long double’
+/usr/include/c++/7/bits/std_abs.h:74:3: note: candidate: constexpr float std::abs(float)
+   abs(float __x)
+   ^~~
+/usr/include/c++/7/bits/std_abs.h:74:3: note:   no known conversion for argument 1 from ‘const Eigen::CwiseBinaryOp<Eigen::internal::scalar_difference_op<double, double>, const Eigen::Block<const Eigen::Block<const Eigen::Matrix<double, -1, -1>, -1, 1, true>, 1, 1, false>, const Eigen::Block<const Eigen::Block<const Eigen::Matrix<double, -1, -1>, -1, 1, true>, 1, 1, false> >’ to ‘float’
+/usr/include/c++/7/bits/std_abs.h:70:3: note: candidate: constexpr double std::abs(double)
+   abs(double __x)
+   ^~~
+/usr/include/c++/7/bits/std_abs.h:70:3: note:   no known conversion for argument 1 from ‘const Eigen::CwiseBinaryOp<Eigen::internal::scalar_difference_op<double, double>, const Eigen::Block<const Eigen::Block<const Eigen::Matrix<double, -1, -1>, -1, 1, true>, 1, 1, false>, const Eigen::Block<const Eigen::Block<const Eigen::Matrix<double, -1, -1>, -1, 1, true>, 1, 1, false> >’ to ‘double’
+/usr/include/c++/7/bits/std_abs.h:61:3: note: candidate: long long int std::abs(long long int)
+   abs(long long __x) { return __builtin_llabs (__x); }
+   ^~~
+/usr/include/c++/7/bits/std_abs.h:61:3: note:   no known conversion for argument 1 from ‘const Eigen::CwiseBinaryOp<Eigen::internal::scalar_difference_op<double, double>, const Eigen::Block<const Eigen::Block<const Eigen::Matrix<double, -1, -1>, -1, 1, true>, 1, 1, false>, const Eigen::Block<const Eigen::Block<const Eigen::Matrix<double, -1, -1>, -1, 1, true>, 1, 1, false> >’ to ‘long long int’
+/usr/include/c++/7/bits/std_abs.h:56:3: note: candidate: long int std::abs(long int)
+   abs(long __i) { return __builtin_labs(__i); }
+   ^~~
+/usr/include/c++/7/bits/std_abs.h:56:3: note:   no known conversion for argument 1 from ‘const Eigen::CwiseBinaryOp<Eigen::internal::scalar_difference_op<double, double>, const Eigen::Block<const Eigen::Block<const Eigen::Matrix<double, -1, -1>, -1, 1, true>, 1, 1, false>, const Eigen::Block<const Eigen::Block<const Eigen::Matrix<double, -1, -1>, -1, 1, true>, 1, 1, false> >’ to ‘long int’
+In file included from /usr/include/c++/7/cstdlib:75:0,
+                 from /usr/include/c++/7/ext/string_conversions.h:41,
+                 from /usr/include/c++/7/bits/basic_string.h:6361,
+                 from /usr/include/c++/7/string:52,
+                 from /usr/include/c++/7/bits/locale_classes.h:40,
+                 from /usr/include/c++/7/bits/ios_base.h:41,
+                 from /usr/include/c++/7/ios:42,
+                 from /usr/include/c++/7/istream:38,
+                 from /usr/include/c++/7/sstream:38,
+                 from /opt/ros/melodic/include/ros/console.h:38,
+                 from /home/nsriram/ws_moveit/src/stomp_ros/stomp_moveit/src/cost_functions/experiment_check.cpp:26:
+/usr/include/stdlib.h:837:12: note: candidate: int abs(int)
+ extern int abs (int __x) __THROW __attribute__ ((__const__)) __wur;
+            ^~~
+/usr/include/stdlib.h:837:12: note:   no known conversion for argument 1 from ‘const Eigen::CwiseBinaryOp<Eigen::internal::scalar_difference_op<double, double>, const Eigen::Block<const Eigen::Block<const Eigen::Matrix<double, -1, -1>, -1, 1, true>, 1, 1, false>, const Eigen::Block<const Eigen::Block<const Eigen::Matrix<double, -1, -1>, -1, 1, true>, 1, 1, false> >’ to ‘int’
+make[2]: *** [CMakeFiles/stomp_moveit_cost_functions.dir/src/cost_functions/experiment_check.cpp.o] Error 1
+make[1]: *** [CMakeFiles/stomp_moveit_cost_functions.dir/all] Error 2
+make: *** [all] Error 2

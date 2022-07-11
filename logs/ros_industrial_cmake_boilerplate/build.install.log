@@ -1,0 +1,12 @@
+[36mInstall the project...[0m
+-- Install configuration: "Release"
+-- Up-to-date: /home/nsriram/ws_moveit/devel/share/ros_industrial_cmake_boilerplate/package.xml
+-- Up-to-date: /home/nsriram/ws_moveit/devel/lib/cmake/ros_industrial_cmake_boilerplate/ros_industrial_cmake_boilerplate-config.cmake
+-- Up-to-date: /home/nsriram/ws_moveit/devel/lib/cmake/ros_industrial_cmake_boilerplate/ros_industrial_cmake_boilerplate-config-version.cmake
+-- Up-to-date: /home/nsriram/ws_moveit/devel/share/ament_index/resource_index/packages/ros_industrial_cmake_boilerplate
+-- Up-to-date: /home/nsriram/ws_moveit/devel/share/ros_industrial_cmake_boilerplate/hook/ament_prefix_path.dsv
+-- Up-to-date: /home/nsriram/ws_moveit/devel/share/ros_industrial_cmake_boilerplate/hook/ros_package_path.dsv
+-- Up-to-date: /home/nsriram/ws_moveit/devel/lib/cmake/ros_industrial_cmake_boilerplate/cmake
+-- Up-to-date: /home/nsriram/ws_moveit/devel/lib/cmake/ros_industrial_cmake_boilerplate/cmake/cmake_tools.cmake
+-- Up-to-date: /home/nsriram/ws_moveit/devel/lib/cmake/ros_industrial_cmake_boilerplate/cmake/code_coverage.cmake
+-- Up-to-date: /home/nsriram/ws_moveit/devel/lib/cmake/ros_industrial_cmake_boilerplate/cmake/extract_package_metadata.cmake

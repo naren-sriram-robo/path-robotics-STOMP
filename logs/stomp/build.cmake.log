@@ -1,0 +1,14 @@
+Not searching for unused variables given on the command line.
+[36m--[0m clang-tidy not found!
+[36m--[0m include-what-you-use not found!
+[36m--[0m cppcheck not found!
+[36m--[0m The CXX compiler identification is GNU 7.5.0
+[36m--[0m Detecting CXX compiler ABI info
+[36m--[0m Detecting CXX compiler ABI info - done
+[36m--[0m Check for working CXX compiler: /usr/lib/ccache/c++ - skipped
+[36m--[0m Detecting CXX compile features
+[36m--[0m Detecting CXX compile features - done
+[36m--[0m Found package config template: /home/nsriram/ws_moveit/src/stomp/cmake/stomp-config.cmake.in
+[36m--[0m Configuring done
+[36m--[0m Generating done
+[36m--[0m Build files have been written to: /home/nsriram/ws_moveit/build/stomp

@@ -1,0 +1,7 @@
+/home/nsriram/ws_moveit/src/stomp_ros/stomp_moveit/src/cost_functions/experiment_check.cpp: In member function ‘virtual bool stomp_moveit::cost_functions::ExperimentCheck::computeCosts(const MatrixXd&, std::size_t, std::size_t, int, int, Eigen::VectorXd&, bool&)’:
+/home/nsriram/ws_moveit/src/stomp_ros/stomp_moveit/src/cost_functions/experiment_check.cpp:232:48: error: request for member ‘getCurrentState’ in ‘joint_group’, which is of pointer type ‘const moveit::core::JointModelGroup*’ (maybe you meant to use ‘->’ ?)
+   std::vector<double> curr_joint = joint_group.getCurrentState();
+                                                ^~~~~~~~~~~~~~~
+make[2]: *** [CMakeFiles/stomp_moveit_cost_functions.dir/src/cost_functions/experiment_check.cpp.o] Error 1
+make[1]: *** [CMakeFiles/stomp_moveit_cost_functions.dir/all] Error 2
+make: *** [all] Error 2

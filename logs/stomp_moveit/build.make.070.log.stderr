@@ -1,0 +1,17 @@
+/home/nsriram/ws_moveit/src/stomp_ros/stomp_moveit/src/cost_functions/experiment_check.cpp: In member function ‘virtual bool stomp_moveit::cost_functions::ExperimentCheck::computeCosts(const MatrixXd&, std::size_t, std::size_t, int, int, Eigen::VectorXd&, bool&)’:
+/home/nsriram/ws_moveit/src/stomp_ros/stomp_moveit/src/cost_functions/experiment_check.cpp:240:11: error: ‘aut’ was not declared in this scope
+       for(aut j:joint_values)
+           ^~~
+/home/nsriram/ws_moveit/src/stomp_ros/stomp_moveit/src/cost_functions/experiment_check.cpp:240:11: note: suggested alternative: ‘auto’
+       for(aut j:joint_values)
+           ^~~
+           auto
+/home/nsriram/ws_moveit/src/stomp_ros/stomp_moveit/src/cost_functions/experiment_check.cpp:242:7: error: expected primary-expression before ‘if’
+       if(parameters.col(t).row(6) != parameters.col(t-1).row(6) )
+       ^~
+/home/nsriram/ws_moveit/src/stomp_ros/stomp_moveit/src/cost_functions/experiment_check.cpp:242:7: error: expected ‘;’ before ‘if’
+/home/nsriram/ws_moveit/src/stomp_ros/stomp_moveit/src/cost_functions/experiment_check.cpp:242:7: error: expected primary-expression before ‘if’
+/home/nsriram/ws_moveit/src/stomp_ros/stomp_moveit/src/cost_functions/experiment_check.cpp:242:7: error: expected ‘)’ before ‘if’
+make[2]: *** [CMakeFiles/stomp_moveit_cost_functions.dir/src/cost_functions/experiment_check.cpp.o] Error 1
+make[1]: *** [CMakeFiles/stomp_moveit_cost_functions.dir/all] Error 2
+make: *** [all] Error 2

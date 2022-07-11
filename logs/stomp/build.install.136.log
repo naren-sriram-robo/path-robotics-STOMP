@@ -1,0 +1,18 @@
+[ 60%] Built target stomp
+[100%] Built target stomp_example
+[36mInstall the project...[0m
+-- Install configuration: "Release"
+-- Up-to-date: /home/nsriram/ws_moveit/devel/share/stomp/package.xml
+-- Up-to-date: /home/nsriram/ws_moveit/devel/lib/libstomp.so
+-- Up-to-date: /home/nsriram/ws_moveit/devel/bin/stomp_example
+-- Up-to-date: /home/nsriram/ws_moveit/devel/lib/cmake/stomp/stomp-targets.cmake
+-- Up-to-date: /home/nsriram/ws_moveit/devel/lib/cmake/stomp/stomp-targets-release.cmake
+-- Up-to-date: /home/nsriram/ws_moveit/devel/lib/cmake/stomp/stomp-config.cmake
+-- Up-to-date: /home/nsriram/ws_moveit/devel/lib/cmake/stomp/stomp-config-version.cmake
+-- Up-to-date: /home/nsriram/ws_moveit/devel/share/ament_index/resource_index/packages/stomp
+-- Up-to-date: /home/nsriram/ws_moveit/devel/share/stomp/hook/ament_prefix_path.dsv
+-- Up-to-date: /home/nsriram/ws_moveit/devel/share/stomp/hook/ros_package_path.dsv
+-- Up-to-date: /home/nsriram/ws_moveit/devel/include/stomp
+-- Up-to-date: /home/nsriram/ws_moveit/devel/include/stomp/stomp.h
+-- Up-to-date: /home/nsriram/ws_moveit/devel/include/stomp/task.h
+-- Up-to-date: /home/nsriram/ws_moveit/devel/include/stomp/utils.h

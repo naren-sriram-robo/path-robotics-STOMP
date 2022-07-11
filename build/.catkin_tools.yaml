@@ -1,0 +1,6 @@
+devel_space: /home/nsriram/ws_moveit/devel
+install: false
+install_space: /home/nsriram/ws_moveit/install
+profile: default
+source_space: /home/nsriram/ws_moveit/src
+workspace: /home/nsriram/ws_moveit

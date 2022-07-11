@@ -1,0 +1,13 @@
+/home/nsriram/ws_moveit/devel/share/stomp/package.xml
+/home/nsriram/ws_moveit/devel/lib/libstomp.so
+/home/nsriram/ws_moveit/devel/bin/stomp_example
+/home/nsriram/ws_moveit/devel/lib/cmake/stomp/stomp-targets.cmake
+/home/nsriram/ws_moveit/devel/lib/cmake/stomp/stomp-targets-release.cmake
+/home/nsriram/ws_moveit/devel/lib/cmake/stomp/stomp-config.cmake
+/home/nsriram/ws_moveit/devel/lib/cmake/stomp/stomp-config-version.cmake
+/home/nsriram/ws_moveit/devel/share/ament_index/resource_index/packages/stomp
+/home/nsriram/ws_moveit/devel/share/stomp/hook/ament_prefix_path.dsv
+/home/nsriram/ws_moveit/devel/share/stomp/hook/ros_package_path.dsv
+/home/nsriram/ws_moveit/devel/include/stomp/stomp.h
+/home/nsriram/ws_moveit/devel/include/stomp/task.h
+/home/nsriram/ws_moveit/devel/include/stomp/utils.h

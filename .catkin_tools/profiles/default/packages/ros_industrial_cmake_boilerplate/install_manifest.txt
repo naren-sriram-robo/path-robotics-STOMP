@@ -1,0 +1,9 @@
+/home/nsriram/ws_moveit/devel/share/ros_industrial_cmake_boilerplate/package.xml
+/home/nsriram/ws_moveit/devel/lib/cmake/ros_industrial_cmake_boilerplate/ros_industrial_cmake_boilerplate-config.cmake
+/home/nsriram/ws_moveit/devel/lib/cmake/ros_industrial_cmake_boilerplate/ros_industrial_cmake_boilerplate-config-version.cmake
+/home/nsriram/ws_moveit/devel/share/ament_index/resource_index/packages/ros_industrial_cmake_boilerplate
+/home/nsriram/ws_moveit/devel/share/ros_industrial_cmake_boilerplate/hook/ament_prefix_path.dsv
+/home/nsriram/ws_moveit/devel/share/ros_industrial_cmake_boilerplate/hook/ros_package_path.dsv
+/home/nsriram/ws_moveit/devel/lib/cmake/ros_industrial_cmake_boilerplate/cmake/cmake_tools.cmake
+/home/nsriram/ws_moveit/devel/lib/cmake/ros_industrial_cmake_boilerplate/cmake/code_coverage.cmake
+/home/nsriram/ws_moveit/devel/lib/cmake/ros_industrial_cmake_boilerplate/cmake/extract_package_metadata.cmake

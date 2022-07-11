@@ -1,0 +1,11 @@
+/home/nsriram/ws_moveit/src/stomp_ros/stomp_moveit/src/cost_functions/experiment_check.cpp: In member function ‘virtual bool stomp_moveit::cost_functions::ExperimentCheck::computeCosts(const MatrixXd&, std::size_t, std::size_t, int, int, Eigen::VectorXd&, bool&)’:
+/home/nsriram/ws_moveit/src/stomp_ros/stomp_moveit/src/cost_functions/experiment_check.cpp:247:18: error: ‘joint_values’ was not declared in this scope
+       for(auto j:joint_values)
+                  ^~~~~~~~~~~~
+/home/nsriram/ws_moveit/src/stomp_ros/stomp_moveit/src/cost_functions/experiment_check.cpp:247:18: note: suggested alternative: ‘curr_joint_values’
+       for(auto j:joint_values)
+                  ^~~~~~~~~~~~
+                  curr_joint_values
+make[2]: *** [CMakeFiles/stomp_moveit_cost_functions.dir/src/cost_functions/experiment_check.cpp.o] Error 1
+make[1]: *** [CMakeFiles/stomp_moveit_cost_functions.dir/all] Error 2
+make: *** [all] Error 2

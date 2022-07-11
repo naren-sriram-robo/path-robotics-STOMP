@@ -1,0 +1,26 @@
+/home/nsriram/ws_moveit/src/stomp_ros/stomp_moveit/src/cost_functions/experiment_check.cpp: In member function ‘virtual bool stomp_moveit::cost_functions::ExperimentCheck::computeCosts(const MatrixXd&, std::size_t, std::size_t, int, int, Eigen::VectorXd&, bool&)’:
+/home/nsriram/ws_moveit/src/stomp_ros/stomp_moveit/src/cost_functions/experiment_check.cpp:274:25: error: invalid types ‘const double[int]’ for array subscript
+       if(parameters[t][6] - parameters[t-1][6])
+                         ^
+/home/nsriram/ws_moveit/src/stomp_ros/stomp_moveit/src/cost_functions/experiment_check.cpp:274:46: error: invalid types ‘const double[int]’ for array subscript
+       if(parameters[t][6] - parameters[t-1][6])
+                                              ^
+In file included from /usr/include/eigen3/Eigen/Core:347:0,
+                 from /usr/include/eigen3/Eigen/Geometry:11,
+                 from /opt/ros/melodic/include/moveit/robot_model/joint_model.h:47,
+                 from /opt/ros/melodic/include/moveit/robot_model/joint_model_group.h:41,
+                 from /opt/ros/melodic/include/moveit/robot_model/robot_model.h:47,
+                 from /opt/ros/melodic/include/moveit/robot_state/robot_state.h:41,
+                 from /opt/ros/melodic/include/moveit/robot_state/conversions.h:40,
+                 from /home/nsriram/ws_moveit/src/stomp_ros/stomp_moveit/src/cost_functions/experiment_check.cpp:28:
+/usr/include/eigen3/Eigen/src/Core/DenseCoeffsBase.h: In instantiation of ‘Eigen::DenseCoeffsBase<Derived, 0>::CoeffReturnType Eigen::DenseCoeffsBase<Derived, 0>::operator[](Eigen::Index) const [with Derived = Eigen::Matrix<double, -1, -1>; Eigen::DenseCoeffsBase<Derived, 0>::CoeffReturnType = const double&; Eigen::Index = long int]’:
+/home/nsriram/ws_moveit/src/stomp_ros/stomp_moveit/src/cost_functions/experiment_check.cpp:274:22:   required from here
+/usr/include/eigen3/Eigen/src/Core/util/StaticAssert.h:32:40: error: static assertion failed: THE_BRACKET_OPERATOR_IS_ONLY_FOR_VECTORS__USE_THE_PARENTHESIS_OPERATOR_INSTEAD
+     #define EIGEN_STATIC_ASSERT(X,MSG) static_assert(X,#MSG);
+                                        ^
+/usr/include/eigen3/Eigen/src/Core/util/StaticAssert.h:32:40: note: in definition of macro ‘EIGEN_STATIC_ASSERT’
+     #define EIGEN_STATIC_ASSERT(X,MSG) static_assert(X,#MSG);
+                                        ^~~~~~~~~~~~~
+make[2]: *** [CMakeFiles/stomp_moveit_cost_functions.dir/src/cost_functions/experiment_check.cpp.o] Error 1
+make[1]: *** [CMakeFiles/stomp_moveit_cost_functions.dir/all] Error 2
+make: *** [all] Error 2
